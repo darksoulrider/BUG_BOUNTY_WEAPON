@@ -1,0 +1,10 @@
+Task A Use your favorite language ( c++ ) to demonstrate the BEFORE and AFTER of memoization, when multiplying two larger numbers, say 5000 and 3800 . Set up the problem similar to the class demonstration: 
+
+def square(n): 
+    result = 0
+    for p in range (n) : 
+        for q in range (n) : 
+            result +=1
+    return result 
+
+print(square(5))
